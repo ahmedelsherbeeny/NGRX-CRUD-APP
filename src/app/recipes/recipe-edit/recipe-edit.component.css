@@ -6,3 +6,11 @@ textarea.ng-invalid.ng-touched {
 .img-responsive {
   max-height: 250px !important;
 }
+.save-cancel{
+  display: flex;
+  justify-content: end;
+}
+.rec{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
