@@ -57,6 +57,8 @@ export class RecipeDetailComponent implements OnInit {
       this.store.dispatch(
         AddIngredients({ ingredients: this.recipe.ingredients })
       );
+      this.router.navigate(['/shopping-list']);
+
     }
   }
 
